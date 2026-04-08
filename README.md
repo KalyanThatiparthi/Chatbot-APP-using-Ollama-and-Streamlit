@@ -22,3 +22,12 @@ your preferred language model.
 1. Install dependencies:
    ```bash
    pip install streamlit ollama
+2. Ensure Ollama is running locally (localhost:11434)
+3. Pull the model:
+   ollama pull minimax-m2.7:cloud
+4. Run the app:
+   streamlit run app.py
+Usage
+Enter your question or prompt in the text area
+Click "Generate Response"
+View the AI-generated response instantly
